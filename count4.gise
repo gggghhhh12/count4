@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="count4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="count_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decode4_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="reg8_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="reg8test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="serial_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sreg_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testdecode_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testserial_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testserial_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testserial_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testsreg_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1499393187" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1499393187">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1499674370" xil_pn:in_ck="-8095131142765885323" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1499674370">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="count.vhd"/>
+      <outfile xil_pn:name="count4.vhd"/>
+      <outfile xil_pn:name="ctrl.vhd"/>
+      <outfile xil_pn:name="decode4.vhd"/>
+      <outfile xil_pn:name="reg8.vhd"/>
+      <outfile xil_pn:name="reg8test.vhd"/>
+      <outfile xil_pn:name="serial.vhd"/>
+      <outfile xil_pn:name="sreg.vhd"/>
+      <outfile xil_pn:name="testdecode.vhd"/>
+      <outfile xil_pn:name="testserial.vhd"/>
+      <outfile xil_pn:name="testsreg.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1501122981" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6008017534681396864" xil_pn:start_ts="1501122981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1501122981" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="541024780030443678" xil_pn:start_ts="1501122981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1499663343" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2548698113095348324" xil_pn:start_ts="1499663343">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1499674370" xil_pn:in_ck="-8095131142765885323" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1499674370">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="count.vhd"/>
+      <outfile xil_pn:name="count4.vhd"/>
+      <outfile xil_pn:name="ctrl.vhd"/>
+      <outfile xil_pn:name="decode4.vhd"/>
+      <outfile xil_pn:name="reg8.vhd"/>
+      <outfile xil_pn:name="reg8test.vhd"/>
+      <outfile xil_pn:name="serial.vhd"/>
+      <outfile xil_pn:name="sreg.vhd"/>
+      <outfile xil_pn:name="testdecode.vhd"/>
+      <outfile xil_pn:name="testserial.vhd"/>
+      <outfile xil_pn:name="testsreg.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1501122989" xil_pn:in_ck="-8095131142765885323" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7041514002523081830" xil_pn:start_ts="1501122981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testserial_beh.prj"/>
+      <outfile xil_pn:name="testserial_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1501122990" xil_pn:in_ck="5410715657811844762" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1762128861111472599" xil_pn:start_ts="1501122989">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testserial_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>
